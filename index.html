@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>HTML5, CSS3, JS</h1>
-    </header>
-    <main>
-        <nav>
-            <a href="#">Notícias</a>
-            <a href="#">Formulário</a>
-        </nav>
-        <main>
-            <article>
-                <h1>Titulo noticia 1</h1>
-                <div>27/03/2021 email@email.com</div> 
-                <img src="img/img1.jpg" alt="">
-                <div>Descrição da Noticia 1, ocorridas no dia 27/03/2021</div>
-                <a href="https://globoesporte.globo.com/go/futebol/copa-do-brasil/jogo/27-03-2021/goianesia-crb.ghtml">Link Original</a> 
-            </article>
-            <article>
-                <h1>Titulo noticia 2</h1>
-                <div>01/01/2021 email02@email.com</div> 
-                <img src="img/img1.jpg" alt="">
-                <div>Descrição da Noticia 2, ocorridas no dia 01/01/2021</div>
-                <a href="https://www.opresente.com.br/esportes/nos-penaltis-corinthians-supera-o-retro-e-avanca-na-copa-do-brasil/">Link Original</a> 
-            </article>
-            <article>
-                <h1>Titulo noticia 3</h1>
-                <div>02/02/2021 email03@email.com</div> 
-                <img src="img/img1.jpg" alt="">
-                <div>Descrição da Noticia 1, ocorridas no dia 02/02/2021</div>
-                <a href="https://www.opresente.com.br/geral/ministro-anuncia-desenvolvimento-de-vacina-financiada-pelo-governo/?utm_source=taboola&utm_medium=organicclicks">Link Original</a> 
-            </article>
-        </main>
-    </main>
-    <footer>
-        Lucas Martins de Oliveira - PÓS-GRADUAÇÃO EM DESENVOLVIMENTO DE APLICAÇÕES WEB E MOBILE
-    </footer>
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Notícias</title>
+  </head>
+  <body>
+    <h1>Cadastro de Notícias</h1>
+
+    <form>
+      <div>
+        <label>Título: </label>
+        <input type="text" id="titulo" autofocus />
+      </div>
+
+      <div>
+        <label>Cor do Título: </label>
+        <input type="color" id="corTitulo" />
+      </div>
+
+      <div>
+        <label>Data: </label>
+        <input type="date" id="data" />
+      </div>
+
+      <div>
+        <label>Email: </label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label>Imagem: </label>
+        <input type="file" accept="image/*" for="fileImagem" />
+      </div>
+
+      <div>
+        <label>Introdução: </label>
+        <textarea rows="10" cols="100" id="introducao"></textarea>
+      </div>
+
+      <div>
+        <label>Endereço de origem(URL): </label>
+        <input type="url" id="endOrigem" />
+      </div>
+
+      <input type="submit" value="Enviar" class="botaoEnviar" />
+    </form>
+  </body>
 </html>
