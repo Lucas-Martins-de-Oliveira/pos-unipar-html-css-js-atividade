@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    font-family: Verdana;
+}
+
+header h1{
+    text-align: center;
+    background-color: rgb(129, 157, 182);
+    padding: 100px;
+}
+
+nav {
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+main {
+    margin: auto;
+    background-color: darkgray;
+}
+
+article {
+    border: 1px solid red;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 700px;
+    background-color: white;
+    position: relative;
+}
+
+article h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+article p {
+    padding-top: 5px;
+    padding-left: 2px;
+    font-size: small;
+}
+
+article div {
+    padding-top: 5px;
+    padding-left: 2px; 
+    font-size: 70%;
+}
+
+article div p {
+    font-size: large; 
+}
+
+article img {
+    padding: 20px 2px;
+    width: 150px;
+    height: 150px;
+}
+
+article a:hover {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: rgb(129, 157, 182);
+}
+
+footer p {
+    padding: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form a {
+    width: 100%;
+    padding: 5px;
+    border: solid 1px black;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+form color:not() {
+    width: 20px;
+}
+
+form textarea {
+    padding-left: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#enviar {
+    padding: 10px;
+}
+
+#enviar:hover {
+    background-color: rgb(129, 157, 182);
+}
